@@ -1,0 +1,92 @@
+/*Se ha establecido los estilos del 
+formulario de acuerdo a los requerimientos*/
+
+
+body { /*Estilos del cuerpo del elemento, */
+  display: flex;                /*Manipular el container y colocarlo en el centro*/
+  justify-content: center;
+  align-items: center;     
+
+  height: 100vh;                /*Aqui estamos diciendo que use toda la altura box-sizing empiezar a sumar desde cero*/
+  padding: 0; 
+  margin: 0;               
+  box-sizing: border-box;     
+       /* El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente*/
+}
+
+input[type="text"] { /*Darle estilos a todos los elementos tipo input*/
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+
+input[type="button"] { /*Darle estilos a el boton de envio*/
+  
+  color: white;
+  padding: 12px 50px;
+  margin-top: 0px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+#boton {/* Es una seudo clase para cambiar el color en el elemento*/
+  background-color: #f1750c;
+  width: 25%;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-border-color: #f1750c;
+  border-radius: 10px;
+}
+
+#con{/*Se definen todos los estilos del contenedor*/
+  width:400px;
+  height: 520px;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 3px 10px 20px 10px #ccc;
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+}
+
+#form { /*Para centrar todos los elemntos del formulario*/
+    align-items: center;
+    margin-top: -40px; /*Es para acercar mas el formulario del logo*/
+    justify-content: center;
+}
+
+.logo {
+    margin-top: -50px; /*Para acercar el log  mas al margen superior*/
+}
+
+#mensaje, #mensaje2, #mensaje3, #mensaje4,#mensaje5{
+  top: 39px;
+}
+
+#calcula{
+  position: relative; 
+  top: -46px;
+  left: 50px;
+  border: 0;
+  background-color: transparent transparent;
+}
+
+#resultado{
+  top:-111px;
+  left: 240px;
+  display: flex;
+}
+
+
+
+
+
