@@ -47,8 +47,8 @@ input[type="button"] { /*Darle estilos a el boton de envio*/
 }
 
 #con{/*Se definen todos los estilos del contenedor*/
-  width:400px;
-  height: 520px;
+  width:350px;
+  height: 525px;
   border-radius: 7px;
   padding: 20px;
   box-shadow: 3px 10px 20px 10px #ccc;
